@@ -16,3 +16,5 @@ def save_to_db(df, db_name, table_name):
 
  
      # Sparar den bearbetade Titanic-train.csv-datan till en SQLite-databas.
+     #  if_exists='replace':  användas för att om en tabell med samma namn redan finns, ersätter tabllen 
+     # index=False: användas för att sparar inte DataFrame-indexet som en separat kolumn i databasen.
