@@ -2,17 +2,17 @@
 # Titanic Data Processing and SQL Storage
 This project automates the process of reading, processing, and saving Titanic passenger data from the train.csv file to an SQL database. The system is built with Python and uses Pandas for data manipulation, SQLite for data storage, and unittest for automated testing.
 
+# Features
+ # Automated Data Pipeline: The program reads Titanic data from a CSV file, processes and formats it (e.g., handling missing values, converting data types), and stores the processed data in a local 
+ SQLite database.
+# Data Processing: Specific columns are selected from the Titanic dataset, and new columns (e.g., IsChild) are created to categorize passengers based on age.
+# SQL Database Storage: The processed data is saved into an SQLite database, making it easy to query and analyze in the future.
+# Error Handling & Logging: All errors during execution are logged to a file, making debugging easier.
+# Automated Tests: The system includes unit tests to ensure that data reading, processing, and saving functionalities work as expected.
 
 
 
 
-
-Features
-Automated Data Pipeline: The program reads Titanic data from a CSV file, processes and formats it (e.g., handling missing values, converting data types), and stores the processed data in a local SQLite database.
-Data Processing: Specific columns are selected from the Titanic dataset, and new columns (e.g., IsChild) are created to categorize passengers based on age.
-SQL Database Storage: The processed data is saved into an SQLite database, making it easy to query and analyze in the future.
-Error Handling & Logging: All errors during execution are logged to a file, making debugging easier.
-Automated Tests: The system includes unit tests to ensure that data reading, processing, and saving functionalities work as expected.
 Project Structure
 bash
 Kopiera kod
