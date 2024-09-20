@@ -15,13 +15,13 @@ This project automates the process of reading, processing, and saving Titanic pa
 
 # Project Structure
 
-├── F-rdjupad-Pythonprogrammering
-│   ├── read.py              # Reads Titanic data from CSV
-│   ├── process.py           # Processes and formats the Titanic data
-│   ├── save.py              # Saves the processed data into an SQLite database
-│   ├── main.py              # The main script to orchestrate the workflow
-│   └── train.csv            # Titanic dataset (train.csv)
-└── README.md                # Project documentation
+   * F-rdjupad-Pythonprogrammering
+   * read.py              # Reads Titanic data from CSV
+   * process.py           # Processes and formats the Titanic data
+   * save.py              # Saves the processed data into an SQLite database
+   * main.py              # The main script to orchestrate the workflow
+   * train.csv            # Titanic dataset (train.csv)
+   * README.md            # Project documentation
 
 
 
