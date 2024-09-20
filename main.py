@@ -42,7 +42,7 @@ if __name__ == "__main__":
     logging.basicConfig(filename='titanic_data.log', level=logging.DEBUG,
                         format='%(asctime)s - %(levelname)s - %(message)s')
 
-    # Schemalägg exekvering varje dag kl 12:00
+    # Schemalägg exekvering varje dag kl 12:00(om man vill testa koden kan ändra tiden)
     schedule.every().day.at("10:50").do(job)
 
     while True:
