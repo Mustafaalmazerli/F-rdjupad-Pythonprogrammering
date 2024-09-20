@@ -1,13 +1,13 @@
 import pandas as pd
 
+    # Bearbetar och formaterar Titanic train.csv-data och minskar datan som sparas.
 def process_data(df):
-    """
-    Bearbetar och formaterar Titanic train.csv-data och minskar datan som sparas.
-    """
+    
+
     try:
         # Konvertera 'Age' till float och hantera saknade värden
         df['Age'] = pd.to_numeric(df['Age'], errors='coerce')
-        df['Age'] = df['Age'].fillna(df['Age'].median()).astype(float)  # Konvertera till float
+        df['Age'] = df['Age'].fillna(df['Age'].median()).astype(float)  
 
         # Konvertera 'Fare' till float och hantera saknade värden
         df['Fare'] = pd.to_numeric(df['Fare'], errors='coerce')
